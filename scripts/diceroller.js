@@ -76,15 +76,14 @@ function roll() {
 // function activated by the roll button in the html
 function diceRoll() {
 
-    // starting a roll
+    // first roll
     if (inProgress == false) {
         inProgress = true;
-        valueParagraph.style.visibility = "hidden";
     }
 
 
-    // previous roll has finished
-    else if (inProgress == true && bnc == BNC_LIMIT) {
+    // roll
+    if (inProgress == true && bnc == BNC_LIMIT) {
         inProgress = false;
 
         x = 50;
@@ -94,6 +93,9 @@ function diceRoll() {
 
         vx = Math.floor((Math.random() * 4) + 8);
         vy = Math.floor((Math.random() * 3) + 4);
+
+        inProgress = true;
+        valueParagraph.style.visibility = "hidden";
     }
 }
 
