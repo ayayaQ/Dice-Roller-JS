@@ -1,0 +1,71 @@
+h1 {
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+html {
+    background-color: black;
+    font-family: monospace;
+}
+
+canvas {
+    background-color: white;
+    align-content: center;
+
+    border-radius: 5% 5% 0% 0%;
+}
+
+img {
+    background-color: black;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    flex-flow: column nowrap;
+}
+
+button {
+    background-color: white;
+    
+    padding: 8px;
+
+    transition-duration: 0.4s;
+
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 3rem;
+
+    border: 5px solid black;
+    border-radius: 0% 0% 25% 25%;
+}
+
+button:hover {
+    border: 5px inset white;
+}
+
+button:active{
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+p{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 2rem;
+
+    background-color: black;
+    color: white;
+
+    padding: 16px;
+
+    visibility: hidden;
+
+}
