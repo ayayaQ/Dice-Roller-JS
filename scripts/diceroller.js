@@ -70,6 +70,13 @@ function roll() {
     return result;
 }
 
+function initImages() {
+    let imgNames = ['d1.png', 'd2.png','d3.png','d4.png','d5.png','d6.png'];
+    imgNames.forEach(element => {
+        diceImage.src = element;
+    });
+}
+
 
 
 
@@ -141,6 +148,8 @@ function animate() {
     }
 }
 
+// loads images
+initImages();
 // gives initial dice value on page load
 roll();
 

@@ -8,6 +8,7 @@ h1 {
 html {
     background-color: black;
     font-family: monospace;
+    justify-content: center;
 }
 
 canvas {
@@ -23,7 +24,8 @@ img {
 
 body {
     display: flex;
-    height: 100%;
+    width: 1280px;
+    margin: auto;
     flex-flow: column nowrap;
 }
 
