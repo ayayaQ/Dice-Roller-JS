@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Dice Roll</title>
-		<link rel="stylesheet" href="styles/style.css">
 
-		<script src="scripts/diceroller.js" defer></script>
-		
-	</head>
-	<body>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dice Roll</title>
+	<link rel="stylesheet" href="styles/style.css">
+
+	<script src="scripts/diceroller.js" defer></script>
+
+</head>
+
+<body>
 	<h1>Dice Roller</h1>
 	<canvas id="cvs" width="1280" height="720px">
 
@@ -18,12 +20,22 @@
 
 	<button id="bt" onclick="diceRoll();">roll</button>
 	<p id="value">Roll Value</p>
-	</body>
 
-	
-	
+	<div id="images">
+		<img src="d1.png" alt="" class="gone">
+		<img src="d2.png" alt="" class="gone">
+		<img src="d3.png" alt="" class="gone">
+		<img src="d4.png" alt="" class="gone">
+		<img src="d5.png" alt="" class="gone">
+		<img src="d6.png" alt="" class="gone">
+	</div>
+
+</body>
 
 
 
-	
+
+
+
+
 </html>

@@ -71,3 +71,7 @@ p{
     visibility: hidden;
 
 }
+
+.gone {
+    display: none;
+}
